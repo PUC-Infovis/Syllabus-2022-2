@@ -1,4 +1,6 @@
 // Creamos constantes para esta visualización.
+
+const LINK = "https://raw.githubusercontent.com/PUC-Infovis/codigos-2022-2/main/Clase%2016%20-%20Zoom%20y%20panning/datasaurus.csv"
 const WIDTH = 600;
 const HEIGHT = 400;
 const MARGIN = {
@@ -31,7 +33,7 @@ const contenedorVis = svg
 // d3.autoType parsea el CSV de forma automática.
 // Ojo que a veces puede fallar, así que siempre verificar
 // que los tipos de datos estén bien antes de comenzar a programar 
-d3.csv('datasaurus.csv', d3.autoType).then(datos => {
+d3.csv(LINK, d3.autoType).then(datos => {
   const escalaY = d3
     .scaleLinear()
     .domain([0, d3.max(datos, (d) => d.y) * 1.1])
@@ -39,14 +41,14 @@ d3.csv('datasaurus.csv', d3.autoType).then(datos => {
 
   const ejeY = d3.axisLeft(escalaY);
   contenedorEjeY.call(ejeY);
-  
+
   const escalaX = d3
     .scaleLinear()
     .domain([0, d3.max(datos, (d) => d.x) * 1.1])
     .range([0, WIDTHVIS]);
   const ejeX = d3.axisBottom(escalaX);
   contenedorEjeX.call(ejeX);
-  
+
   contenedorVis
     .selectAll("circle")
     .data(datos)
