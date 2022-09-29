@@ -1,0 +1,206 @@
+/********************************************************/
+/* Primera parte css, añadir estilo a name, clase y id */
+/********************************************************/
+
+* {
+    box-sizing: border-box;
+}
+
+/* Se agrega un font especial y un margen 0 al elemento de nombre body. Por cascada, sus hijos
+van a heredar esto. Si más adelante defino estas propiedades para un descendiente de body (elemento contenido
+dentro de body), entonces se aplicará este nuevo estilo sobre este desendiente y sus descendientes. */
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+
+/* Se define un ancho máximo de 34rem para los elementos de clase prose y el elemento con id intro. rem es 
+una forma de definir unidades, que luego son traducidas a pixeles por el navegador.
+
+margin y padding son propiedades que profundizaremos más adelante, pero básicamente sirven para definir como
+se posiciona el contenido y contenedor en la página. El valor auto en margin se puede utilizar para centrar elementos.
+En este caso está centrando horizontalmente los elementos con clase prose y id intro.
+*/
+.prose, #intro {
+    max-width: 34rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+/* Otra forma de definir tamaño es con pixeles. Esta siempre es interpretada por el navegador de la misma forma. */
+
+#dynamic-tutorial{
+    width: 100%;
+    height: 250px;
+    background-color: lightseagreen;
+}
+
+/********************************************************/
+/* Segunda parte css, combinación de selectores*/
+/********************************************************/
+
+/*Aquí estoy definiendo un font size a los elementos p con clase big. Notar que esto no se aplicará a cualquier
+otro elemento con clase big*/
+p.big{
+    font-size: 0.8rem;
+}
+
+/* Aquí estoy definiendo un font weight a los elementos con clase bold-text que son descendientes directos de p.*/
+
+p>.bold-text{
+    font-weight: bold;
+}
+
+/* Aquí estoy definiendo un text align a los elementos p que son descendientes, no necesariamente directos, 
+de elementos con clase prose.*/
+
+.prose p {
+    text-align: justify;   
+}
+
+/*Aplico display block para que la imagen ocupe todo el ancho de su contenedor y luego con los márgenes poder 
+centrarlo*/
+.prose img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/********************************************************/
+/* Tercera parte css, pseudo clases */
+/********************************************************/
+
+/*Cuando el usuario pase el cursor sobre un elemento a, su color de fondo va a cambiar*/
+a:hover{
+    background-color: lightskyblue;
+}
+
+/*Cuando el usuario haga click sobre un elemento a, su color va a ser negro. También será negro 
+por default*/
+a, a:active{
+    color: black;
+}
+
+/********************************************************/
+/* Cuarta parte Text styling */
+/********************************************************/
+
+/*En esta parte no ahondaremos en la ayudantía, pero te invito a ahondar en que efecto está teniendo cada 
+propiedad en la página*/
+
+h1, h2, h3 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#intro h1{
+    font-size: 64px;
+    margin-bottom: 0;
+}
+
+#intro h1 span{
+    letter-spacing: .05em;
+}
+
+#intro h1 span:nth-child(1){
+    display: block;
+    font-size: 40px;
+    font-weight: 100;
+}
+
+/*Esto es lo que se ocupa para generar el degrade en el título. Investiga por qué se ocupa webkit*/
+#intro h1 span:nth-child(2){
+    font-weight: 700;
+    background: -webkit-linear-gradient(45deg,#fd72bf,#34c6e4 80%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#intro h1 span:nth-child(3){
+    display: block;
+    font-weight: 100;
+    letter-spacing: .1em;
+}
+
+#intro>p{
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    color: gray;
+    text-align: center;
+}
+
+/********************************************************/
+/* Quinta parte Box Model y Layout */
+/********************************************************/
+
+/*Margin, Border, Padding y Content. Esto se puede analizar bien con la herramienta inspect del navegador.*/
+/* Padding indica el espacio entre el borde del contenedor y el contenido de este, 
+Margin indica el espacio entre el contenedor y el bode de su padre*/
+.quiz-options{
+    margin: 80px 0 80px 0;
+    text-align: center;
+}
+
+/*border radius se ocupa para darle una curbvatura a los botones. Los botones por default vienen
+con otro estilo de font, por lo que hay que explicitar que hereden el de su padre (en este caso, el 
+definido en body)*/
+.quiz-options button{
+    padding: 1rem;
+    border: 2px solid #949494;
+    border-radius: 0.20rem;
+    font-family: inherit;
+    font-weight: 600;
+}
+
+/*Otra forma de trabajar con tamaños es con porcentajes. En este caso estamos ocupando % para 
+el width. Esto me indica que ocupará un 90% del tamaño de su contendor.*/
+#method{
+    max-width: 36rem;
+    width: 90%;
+    margin: 50px auto;
+    padding: 1rem 1rem;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+/* Positioning */
+/*Un elemento se puede posicionar de formas distintas dentro del normal flow de la página. Hay valores 
+que nos permiten sacarlo del normal flow (como fixed) y otros que nos permiten hacerlo relativo a otro
+contenedor. En este caso ocuparemos sticky. sticky trata al elemento como relativo (al normal flow) 
+hasta que cruza cierto umbral, que se especifica con la propiedad top. Ahí empieza a tratar al elemento como
+fixed*/
+header{
+    margin: 0;
+    text-align: center;
+    background-color: #e8f9fc;
+    height: 50px;
+    line-height: 50px;
+    position: sticky;
+    top: 0;
+}
+
+header a{
+    font-size: 1.5em;
+    text-decoration: none;
+    font-weight: 800;
+    /* position:absolute; */
+}
+
+/* Flexbox */
+/*Flexbox es una forma de posicionar elementos dentro de un contenedor. Ocuparlo nos facilita trabajar
+con su alineación y districión de espacio. Espacialmente útil cuando hay dinamismo. La idea central es que
+el contenedor altera el ancho y largo de sus items para que se ajusten de mejor manera al espacio*/
+footer{
+    background-color: #f4f4f4;
+}
+
+.footer-articles{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.footer-article{
+    border: black solid 2px;
+    min-width: 0;
+}

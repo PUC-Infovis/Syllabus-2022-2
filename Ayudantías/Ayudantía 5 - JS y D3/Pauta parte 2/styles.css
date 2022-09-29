@@ -1,0 +1,19 @@
+.vertical-flexbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Pueden ver que en para la clase .vertical-flexbox, que en el html corresponde a un div, la definí mediante 
+css como un flexbox. Esto es equivalente a definir que se comporte como una grilla más dinámica y con 
+ciertas propiedades. En particular, hice que los elementos del div se ordenaran en forma vertical y que 
+estuvisen centrados en la página web. Para entender en mejor detalle las posibilidades que poseen los
+flexbox, les invito a revisar la siguiente guia:  https://css-tricks.com/snippets/css/a-guide-to-flexbox/   */
+
+h1 {
+    font-family: cursive, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+body {
+    background-color: rgb(40, 168, 168);
+}

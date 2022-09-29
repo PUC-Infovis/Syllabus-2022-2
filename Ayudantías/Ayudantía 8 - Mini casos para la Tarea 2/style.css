@@ -1,0 +1,11 @@
+body{
+    max-width: 900px;
+}
+
+svg {
+    border: solid 1px orange;
+}
+
+#orderBy, #updateVis2{
+    display: block;
+}

@@ -1,0 +1,80 @@
+* {
+    font-family: 'Raleway';
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.example_1 {
+    width: 95%;
+    margin: auto auto;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 1px 8px #b4b4b4;
+}
+
+.example_2 {
+    width: 95%;
+    margin: auto auto;
+    display: flex;
+    flex-direction: column;
+}
+ 
+.example_2 div { /* Solo para que el svg no quede al final de la pagina */
+    height: 100px;
+}
+
+.example_2 button {
+    margin: 20px 0px;
+    width: 100px;
+    padding: 5px 10px;
+    margin-right: 10px;
+}
+
+h2 {
+    margin: 20px 0px;
+    text-align: center;
+}
+
+#content {
+    display: flex;
+}
+
+#content p {
+    padding: 0 3px;
+}
+
+.box {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: left;
+    padding: 10px 20px;
+    
+}
+
+
+#control {
+    display: flex;
+    width: 30%;
+}
+
+#control button {
+    margin: 0px 5px;
+    padding: 3px 5px;
+}
+
+.zero {
+    background-color: lightgray;
+}
+
+.one {
+    background-color: white;
+}

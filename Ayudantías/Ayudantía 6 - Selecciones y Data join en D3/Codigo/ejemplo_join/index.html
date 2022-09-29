@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <script src="https://d3js.org/d3.v7.js"></script> 
+    <title>Data Join</title>
+</head>
+<body>
+    <div class="container">
+        <h1> Ayudantia 6: Ejemplo data join </h1>
+        <h2> Ejemplo data() y join() </h2>
+        <div class="example_1">
+            <div class="box zero" id="example_1_static">
+                <h3> Ejemplo data()</h3>
+                <p> Numero de elementos: 10 </p>
+                <div id="content">
+                    
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                </div>
+            </div>
+            <div class="box one" id="example_1_update">
+                <h3> Ejemplo data() + update </h3>
+                <p> Numero de elementos: 10 </p>
+                <div id="content">
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                </div>
+                <div id="control">
+                    <button id="update_ej12">update</button>
+                </div>
+            </div>
+            <div class="box zero" id="example_1_full">
+                <h3> Ejemplo data() + update + remove + enter</h3>
+                <p id="count_ej13"> Numero de elementos: 10 </p>
+                <div id="content">
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                </div>
+                <div id="control">
+                    <button id="remove_ej13">remove</button>
+                    <button id="update_ej13">update</button>
+                    <button id="add_ej13">add</button>
+                </div>
+            </div>
+            <div class="box one" id="example_1_join">
+                <h3> Ejemplo join()</h3>
+                <p id="count_ej14"> Numero de elementos: 10 </p>
+                <div id="content">
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                </div>
+                <div id="control">
+                    <button id="remove_ej14">remove</button>
+                    <button id="update_ej14">update</button>
+                    <button id="add_ej14">add</button>
+                </div>
+            </div>
+            </div>
+        </div>
+        <h2> Ejemplo join() completo </h2>
+        <div class="example_2">
+            <svg>
+            </svg>
+            <div>
+                <button id="data"></button>
+                <button id="remove">Remove</button>
+                <button id="add">Add</button>
+            </div>
+            
+            <div></div> <!-- Para que SVG no quede al final de la pagina -->
+        </div>
+    </div>
+    <script src="ejemplo1.js"></script>
+    <script src="ejemplo2.js"></script>
+</body>
+</html>

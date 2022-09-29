@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://d3js.org/d3.v7.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Ayudantía 8</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1> Snippers de código Tarea 2</h1>
+        <p>En esta ayudantía veremos pequeños fragmentos de códigos para poner a prueba
+            consceptos de D3 como el data join, multiples append, transiciones y eventos.
+        </p>
+        <div id="vis-1">
+            <h2>Múltiples appends</h2>
+            <p>Vamos a cargar datos de artistas y con solo 1 data join, vamos a
+                hacer un pequeño glifo compuesto por más de una marca para ver
+                cómo se hacen multiples appends. Además, vamos a generar un evento
+                para resaltar el glijo a cuál le hagamos click</p>
+        </div>
+        <div id="vis-2">
+            <h2>Transiciones y delays</h2>
+            <p>Vamos a generar datos aleatorios y cada vez que oprimas en el botón
+                "actualizar" se cambiará la información a desplegar. Lo importante
+                es que primero se actualizará el color de los círculos y tras
+                finalizar esa actualización, cambiaremos el radio de estos.
+            </p>
+            <button id="updateVis2">Actualizar</button>
+        </div>
+        <div id="vis-3">
+            <h2>Ordenamiento</h2>
+            <p>
+                Dado este gráfico de barra, vamos a reordenar los siguientes glifos
+                por 2 formas: (1) orden por defecto y (2) alfabéticamente. Para esto
+                haremos un selector que cuando cambie su valor, reordene los datos.
+            </p>
+            <select name="orderBy" id="orderBy">
+                <option value="default">Orden por defecto</option>
+                <option value="nombre">Ordenar alfabeticamente por nombre</option>
+            </select>
+        </div>
+        <div id="vis-4">
+            <h2>Move event en el mouse</h2>
+            <p>
+                Vamos a detectar el movimiento del mouse en la pantalla. Vamos a indicar
+                la posición del mouse en un texto del SVG y además, vamos a mover un círculo
+                para que siga al mouse. Vamos a explorar 2 posiciones, la posición en e HTML
+                (pageX y pageY) y la posición dentro del SVG (offsetX y offsetY).
+            </p>
+        </div>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>

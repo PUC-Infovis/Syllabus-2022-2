@@ -1,0 +1,135 @@
+<!-- 
+    Se agrega un tag input para recibir la respuesta del usuario y un boton para que pueda enviarla. 
+
+    Se agrega el tag a para añadir un link a la página principal. También se usa para poder saltar 
+    a otra parte de la página, esto se puede hacer usando el atributo href y el id de la sección a la que 
+    se quiere saltar.
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Gyllenhaal Experiment</title>
+</head>
+<body>
+    <header>
+        <a href="https://pudding.cool/">The Puddling</a>
+    </header>
+    <div>
+    </div>
+    <main>
+        <section id="intro">
+            <h1>
+                The Gyllenhaal Experiment
+            </h1>
+            <p>
+                By Russell Goldenber & Matt Daniels
+            </p>
+        </section>
+        <section id="prelude">
+            <p>
+                Colin Morris recently explored the difficulties of spelling by identifying 
+                Reddit comments with (sp?) next to words. It's no surprise that Jake Gyllenhaal,
+                along with other celebrities, were atop the list. Let's take this idea one step further.
+            </p>
+        </section>
+        <section id="tutorial">
+            <h3>
+                How it works
+            </h3>
+            <p>
+                This chart shows over 600k attempts of people trying to search for Britney Spears. Here
+                are the 8 most common permutations of her first name, Britney. People nail the first three
+                letters—then things get interesting.
+            </p>
+            <p>
+                You can skip the tutorial and go right to the <a href="#quiz">quiz</a>.
+            </p>
+            <div class="tutorial">
+                <p>
+                    (Aquí va el tutorial dinámico)
+                </p>
+            </div>
+        </section>
+        <section id="quiz">
+            <h3>Your Turn</h3>
+            <p>
+                Below we’ll put you through a series of tests. You can skip ahead if you just want to see the
+                results, but be warned, once you do there is no turning back!
+            </p>
+            <div class="quiz_content">
+                <div class="question_person">
+                    <img src="images/HernanValdivieso.jpg" alt="Person 1">
+                    <p>
+                        Professor
+                    </p>
+                </div>
+                <div class="question_response">
+                    <input value="v">
+                    <button class="btn">
+                        I Think I've Got It   
+                    </button>
+                </div>
+                <div class="visualization">
+                    <p>
+                        (Aquí va la visualización)
+                    </p>
+                </div>
+            </div>
+            <div class="quiz_options">
+                <p>
+                    (Aquí van las opciones del quiz)
+                </p>
+            </div>
+        </section>
+        <section id="tease">
+            <p>
+                Want more data-driven experiments? Check out or Birthday Paradox explainer, that uses you as 
+                part of the data.
+            </p>
+        </section>
+        <section id="method">
+            <h3>
+                Data and Methods 
+            </h3>
+            <p>
+                Britney Spears search data is from Google searches circa 2011. A slightly modified scale was used 
+                to represent the flow diagrams to make all branches' text legible, so the sizes don't perfectly 
+                represent the proportion of responses. We chose to only show the top 8 permutations of each name. 
+                Phonetic data is based on the International Phonetic Alphabet via Wikipedia. You can download the 
+                data yourself here.
+            </p>
+            <p>
+                Get in touch with Russell Goldenberg or Matt Daniels, or email us at sup@pudding.cool.
+            </p>
+        </section>
+    </main>
+    <footer>  
+        <div class="footer-social">
+            <p>
+                Was this your jam? Preach.
+            </p>
+        </div>
+        <div class="footer-articles">
+        </div>
+        <div class="footer-company">
+            <div class="footer-company-links"></div>
+            <div class="footer-company-about">
+                <p>
+                    The Pudding
+                </p>
+                <p>
+                    The Pudding is a digital publication that explains ideas debated in culture with visual essays.
+                </p>
+                <p>
+                    The Pudding® is made in Brooklyn, NY; Seattle, WA; and Great Barrington, MA.
+                </p>
+            </div>
+        </div>      
+    </footer>
+
+
+</body>
+</html>

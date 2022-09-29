@@ -1,0 +1,155 @@
+<!-- 
+    Este script se agregaron elementos para poder mostrar como afectará el css a la página.
+    
+    Cambios: 
+    Se envolvieron algunos elementos en divs para poder asignarles clases.
+
+    En el head se incluye un link al css. Esta es una forma de agregarle estilo a la página. 
+    Además, hicimos un link a una página que nos permite ocupar fonts de google. 
+
+    Se agregaron 2 botones nuevos (quiz-options).
+
+    En el footer se agregaron tags img que hacen referencia a fotografías en el sitio picsum.
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Gyllenhaal Experiment</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <a href="https://pudding.cool/">The Puddling</a>
+    </header>
+    <div>
+    </div>
+    <main>
+        <section id="intro">
+            <h1 class="big">
+                <span>The</span> <span>Gyllenhaal</span> <span>Experiment</span>
+            </h1>
+            <p class="big">
+                By Russell Goldenber & Matt Daniels
+            </p>
+        </section>
+        <section id="prelude">
+            <div class="prose">
+                <p>
+                    Colin Morris recently explored the difficulties of spelling by identifying 
+                    Reddit comments with <span class="bold-text">(sp?)</span> next to words. It's no surprise that Jake Gyllenhaal,
+                    along with other celebrities, were atop the list. Let's take this idea one step further.
+                </p>
+            </div>
+        </section>
+        <section id="tutorial">
+            <div class="prose">
+                <h3>
+                    How it works
+                </h3>
+                <p>
+                    This chart shows over 600k attempts of people trying to search for <span class="bold-text">Britney Spears</span>. Here
+                    are the 8 most common permutations of her first name, Britney. People nail the first three
+                    letters—then things get interesting.
+                </p>
+                <p>
+                    You can skip the tutorial and go right to the <a href="#quiz">quiz</a>.
+                </p>
+                <div id="dynamic-tutorial">
+                </div>
+            </div>
+        </section>
+        <section id="quiz">
+            <div class="prose">
+                <h3>Your Turn</h3>
+                <p>
+                    Below we’ll put you through a series of tests. You can skip ahead if you just want to see the
+                    results, but be warned, once you do there is no turning back!
+                </p>
+                <div class="quiz_content">
+                    <div class="question_person">
+                        <img src="images/HernanValdivieso.jpg" alt="Person 1">
+                        <p>
+                            Professor
+                        </p>
+                    </div>
+                    <div class="question_response">
+                        <input value="v">
+                        <button class="btn">
+                            I Think I've Got It   
+                        </button>
+                    </div>
+                    <div class="visualization">
+                        <p>
+                            (Aquí va la visualización)
+                        </p>
+                    </div>
+                </div>
+                <div class="quiz-options">
+                    <button>Show Me Another</button>
+                    <button>Skip To Results</button>                    
+                </div>
+            </div>
+        </section>
+        <section id="tease">
+            <div class="prose">
+                <p>
+                    Want more data-driven experiments? Check out or Birthday Paradox explainer, that uses you as 
+                    part of the data.
+                </p>
+            </div>
+        </section>
+        <section id="method">
+            <div class="prose">
+                <h3>
+                    Data and Methods 
+                </h3>
+                <p>
+                    Britney Spears search data is from Google searches circa 2011. A slightly modified scale was used 
+                    to represent the flow diagrams to make all branches' text legible, so the sizes don't perfectly 
+                    represent the proportion of responses. We chose to only show the top 8 permutations of each name. 
+                    Phonetic data is based on the International Phonetic Alphabet via Wikipedia. You can download the 
+                    data yourself here.
+                </p>
+                <p>
+                    Get in touch with Russell Goldenberg or Matt Daniels, or email us at sup@pudding.cool.
+                </p>
+            </div>
+        </section>
+    </main>
+    <footer>  
+        <div class="footer-social">
+            <p>
+                Was this your jam? Preach.
+            </p>
+        </div>
+        <div class="footer-articles">
+            <img class="footer-article" src="https://picsum.photos/248">
+            <img class="footer-article" src="https://picsum.photos/249">
+            <img class="footer-article" src="https://picsum.photos/250">
+            <img class="footer-article" src="https://picsum.photos/252">
+        </div>
+        <div class="footer-company">
+            <div class="footer-company-links"></div>
+            <div class="footer-company-about">
+                <p>
+                    The Pudding
+                </p>
+                <p>
+                    The Pudding is a digital publication that explains ideas debated in culture with visual essays.
+                </p>
+                <p>
+                    The Pudding® is made in Brooklyn, NY; Seattle, WA; and Great Barrington, MA.
+                </p>
+            </div>
+        </div>      
+    </footer>
+
+
+</body>
+</html>
