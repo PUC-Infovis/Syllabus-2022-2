@@ -9,7 +9,7 @@ const svg = d3
   .attr("height", HEIGHT);
 
 // Cargamos el geojson con la información de los paises
-d3.json("paises_2.json").then((datos) => {
+d3.json("paises.json").then((datos) => {
   // Algunas opciones de proyecciones
   // d3.geoMercator();
   // d3.geoCylindricalEqualArea();
