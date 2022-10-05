@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Links -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+    <!-- Scripts -->
+    <script src="https://d3js.org/d3.v7.js"></script> 
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <h1> 
+        What Are The <span class="lightblue">Safest</span> And <span class="lightgreen">Cleanest</span> Energy Sources?
+    </h1>
+    <div class="container">
+        <svg id="vis_container">
+        </svg>
+        <div id="legend_container">
+            <p>On the bottom, we have the comparison of death rates from accidents and air pollution per unit of electricity production (TWh). </p>
+            <p>On the left, we have the amount (in tonnes) of greenhouse gas that are emitted per unit of electricity production. </p>
+            <p>Radio = % of global electricity</p>
+            
+            <svg id="legend_svg">
+
+            </svg>
+            <div id="button_container">
+                <button id="add">Add</button>
+                <button id="remove">Remove</button> 
+                <button id="zoom">Reset Zoom</button>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

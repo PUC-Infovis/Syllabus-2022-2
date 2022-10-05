@@ -1,0 +1,74 @@
+[
+  {
+    "Entity": "Biomass",
+    "Code": "",
+    "Year": 2021,
+    "Deaths per TWh of electricity production": 4.63,
+    "Percentage of global electricity": 2,
+    "Greenhouse emissions": 230,
+    "color": "#956d52"
+  },
+  {
+    "Entity": "Coal",
+    "Code": "",
+    "Year": 2021,
+    "Deaths per TWh of electricity production": 24.62,
+    "Percentage of global electricity": 36,
+    "Greenhouse emissions": 820,
+    "color": "#d56861"
+  },
+  {
+    "Entity": "Gas",
+    "Code": "",
+    "Year": 2021,
+    "Deaths per TWh of electricity production": 2.821,
+    "Percentage of global electricity": 22,
+    "Greenhouse emissions": 490,
+    "color": "#92ae7b"
+  },
+  {
+    "Entity": "Hydropower",
+    "Code": "",
+    "Year": 2021,
+    "Deaths per TWh of electricity production": 1.3,
+    "Percentage of global electricity": 12,
+    "Greenhouse emissions": 34,
+    "color": "#80c1e1"
+  },
+  {
+    "Entity": "Nuclear",
+    "Code": "",
+    "Year": 2021,
+    "Deaths per TWh of electricity production": 0.03,
+    "Percentage of global electricity": 10,
+    "Greenhouse emissions": 3,
+    "color": "#738ca0"
+  },
+  {
+    "Entity": "Oil",
+    "Code": "",
+    "Year": 2021,
+    "Deaths per TWh of electricity production": 18.43,
+    "Percentage of global electricity": 3,
+    "Greenhouse emissions": 720,
+    "color": "#c68663"
+  },
+  {
+    "Entity": "Wind",
+    "Code": "",
+    "Year": 2021,
+    "Deaths per TWh of electricity production": 0.035,
+    "Percentage of global electricity": 7,
+    "Greenhouse emissions": 5,
+    "color": "#752061"
+  },
+  {
+    "Entity": "Solar",
+    "Code": "",
+    "Year": 2021,
+    "Deaths per TWh of electricity production": 0.019,
+    "Percentage of global electricity": 4,
+    "Greenhouse emissions": 5,
+    "color": "#70c670"
+  }
+]
