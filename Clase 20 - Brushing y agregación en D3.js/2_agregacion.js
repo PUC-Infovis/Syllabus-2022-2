@@ -57,7 +57,7 @@ d3.json(LINK).then((data) => {
   // Uso de d3.bin
   ////////////////////////////////////////////////////
   const binSepalLength = d3.bin()
-    .thresholds(40)
+    .thresholds(40) // Valor para intentar generar dicha cantidad de bins
     .value((d) => d.sepalLength);
   console.log("Bins");
   console.log(binSepalLength(data));
@@ -75,4 +75,7 @@ d3.json(LINK).then((data) => {
   const hexagonos = hexbin(data);
   console.log("Hexbins");
   console.log(hexagonos);
+
+  // Forma del hexagono
+  console.log(hexbin.hexagon());
 });
