@@ -1,4 +1,4 @@
-const LINK = "https://raw.githubusercontent.com/PUC-Infovis/codigos-2022-2/main/Clase%2020%20-%20Brushing%20y%20agregaci%C3%B3n%20en%20D3.js/iris.json"
+const LINK = "https://raw.githubusercontent.com/PUC-Infovis/codigos-2022-2/main/Clase%2022%20-%20Brushing%20y%20agregaci%C3%B3n%20en%20D3.js/iris.json"
 
 d3.json(LINK).then((data) => {
   console.log("DATA");
