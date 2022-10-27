@@ -31,6 +31,7 @@ const dibujarJerarquia = (raiz, contenedor, metodo_jerarquico) => {
 
   // Cosntruirmos un objeto de D3 encargado de generar path para enlaces
   // así no tenemos que usar "line".
+  console.log(raiz.links())
   const generadorDeEnlace = d3
     .linkVertical()
     .source((d) => d.source)

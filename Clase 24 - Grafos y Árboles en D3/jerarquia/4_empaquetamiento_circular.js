@@ -23,7 +23,7 @@ const dibujarJerarquia = (raiz) => {
       width - margin.left - margin.right,
       height - margin.top - margin.bottom,
     ])
-    .padding(5);
+    .padding(25);
 
   pack(raiz);
   console.log(raiz.descendants());

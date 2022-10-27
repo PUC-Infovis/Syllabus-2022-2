@@ -14,11 +14,20 @@ const svg = d3
   .attr("width", width)
   .attr("height", height);
 
+const FuerzaEnlace = d3.forceLink(enlaces)
+  .id((d) => d.nombre) // Llave para conectar source-target con el nodo
+  .strength((link => {
+    // Definir la fuerza del enlace de forma personalizada
+    if (link.source.nombre == "A") {
+      return 0
+    }
+    return 0.3
+  }))
 
 const iniciarSimulacion = (nodos, enlaces) => {
   const simulacion = d3
     .forceSimulation(nodos)
-    .force("enlaces", d3.forceLink(enlaces).id((d) => d.nombre))
+    .force("enlaces", FuerzaEnlace)
     .force("carga", d3.forceManyBody())
     .force("colision", d3.forceCollide(10))
     .force("centro", d3.forceCenter(width / 2, height / 2));
@@ -39,11 +48,12 @@ const iniciarSimulacion = (nodos, enlaces) => {
     .selectAll("circle")
     .data(nodos)
     .join("circle")
-    .attr("r", 5)
+    .attr("r", 10)
     .attr("fill", (d) => d.color);
 
   simulacion.on("tick", () => {
     // console.log({ ...nodos[0] });
+    // console.log({ ...enlaces[0] });
     // console.log(simulacion.alpha(), simulacion.alpha() < simulacion.alphaMin());
 
     circulos.attr("cx", (d) => d.x).attr("cy", (d) => d.y);
@@ -56,7 +66,22 @@ const iniciarSimulacion = (nodos, enlaces) => {
   });
 
   d3.select("#restart").on("click", () => {
-    simulacion.alpha(0.8).restart()
+    simulacion.alpha(3).restart()
+  })
+
+  // Hacer click en un nodo hará que este deje de actualizar
+  // su posición.
+  d3.selectAll("circle").on("click", (event, data) => {
+    // X puede quedar bloqueado y si ya lo está,
+    // libero su bloqueo
+    if (data.fx == null) {
+      data.fx = data.x
+    }
+    else {
+      data.fx = null
+    }
+    // Y siempre quedará bloqueado
+    data.fy = data.y
   })
 };
 

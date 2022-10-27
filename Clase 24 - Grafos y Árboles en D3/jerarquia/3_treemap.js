@@ -48,14 +48,14 @@ d3.json("jerarquia_anidada.json")
 
     // A cada nodo se le asigna el atributo "value" 
     // con la cantidad de hijos totales
-    raiz.count()
+    // raiz.count()
 
     // A cada nodo padre se le asigne el atributo value como
     // la suma del value de sus hijos. Es necesario definir
     // qué valor tomarán los nodos hijos donde no se puede aplicar
     // la recursión.
 
-    // raiz.sum((d) => d.valor);
+    raiz.sum((d) => d.valor);
 
     console.log(raiz);
     dibujarJerarquia(raiz);
