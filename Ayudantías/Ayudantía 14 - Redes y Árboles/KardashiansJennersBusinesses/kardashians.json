@@ -1,0 +1,29 @@
+{
+
+"nodos":[
+    {"nombre":"Kim", "apellido":"Kardashian","negocios":14},
+    {"nombre":"Kourtney","apellido":"Kardashian", "negocios":10},
+    {"nombre":"Khloe","apellido":"Kardashian","negocios":8},
+    {"nombre":"Kendall", "apellido":"Jenner", "negocios":4},
+    {"nombre":"Kylie", "apellido":"Jenner","negocios":4},
+    {"nombre":"Rob", "apellido":"Kardashian","negocios":2},
+    {"nombre":"Kris", "apellido":"Jenner","negocios":5},
+    {"nombre":"Travis", "apellido":"Barker","negocios":1}
+],
+"enlaces":[
+    {"source":"Kim", "target":"Kourtney"},
+    {"source":"Kim", "target":"Khloe"},
+    {"source":"Kim", "target":"Kendall"},
+    {"source":"Kim", "target":"Kylie"},
+    {"source":"Kim", "target":"Kris"},
+    {"source":"Kourtney", "target":"Khloe"},
+    {"source":"Kourtney", "target":"Kendall"},
+    {"source":"Kourtney", "target":"Kylie"},
+    {"source":"Kourtney", "target":"Travis"},
+    {"source":"Khloe", "target":"Kendall"},
+    {"source":"Khloe", "target":"Kylie"},
+    {"source":"Kendall", "target":"Kylie"},
+    {"source":"Kylie", "target":"Kris"},
+    {"source":"Rob", "target":"Kris"}
+]
+}

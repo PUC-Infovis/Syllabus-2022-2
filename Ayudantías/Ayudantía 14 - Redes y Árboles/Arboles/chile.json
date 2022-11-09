@@ -1,0 +1,1407 @@
+{
+    "name": "Chile",
+    "children": [
+        {
+            "name": "XV Región",
+            "children": [
+                {
+                    "name": "Arica",
+                    "children": [
+                        {
+                            "name": "Arica",
+                            "children": []
+                        },
+                        {
+                            "name": "Camarones",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Parinacota",
+                    "children": [
+                        {
+                            "name": "General Lagos",
+                            "children": []
+                        },
+                        {
+                            "name": "Putre",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "I Región",
+            "children": [
+                {
+                    "name": "Iquique",
+                    "children": [
+                        {
+                            "name": "Alto Hospicio"
+                        },
+                        {
+                            "name": "Iquique"
+                        }
+                    ]
+                },
+                {
+                    "name": "Pozo Almonte",
+                    "children": [
+                        {
+                            "name": "Camiña"
+                        },
+                        {
+                            "name": "Colchane"
+                        },
+                        {
+                            "name": "Huara"
+                        },
+                        {
+                            "name": "Pica"
+                        },
+                        {
+                            "name": "Pozo Almonte"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "II Región",
+            "children": [
+                {
+                    "name": "Antofagasta",
+                    "children":[
+                        {
+                            "name": "Antofagasta"
+                        },
+                        {
+                            "name": "Mejillones"
+                        },
+                        {
+                            "name": "Sierra Gorda"
+                        },
+                        {
+                            "name": "Taltal"
+                        }
+                    ]
+                },
+                {
+                    "name": "El Loa",
+                    "children":[
+                        {
+                            "name": "Calama"
+                        },
+                        {
+                            "name": "Ollagüe"
+                        },
+                        {
+                            "name": "San Pedro de Atacama"
+                        }
+                    ]
+                },
+                {
+                    "name": "Tocopilla",
+                    "children":[
+                        {
+                            "name": "Maria Elena"
+                        },
+                        {
+                            "name": "Tocopilla"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "III Región",
+            "children": [
+                {
+                    "name": "Chañaral",
+                    "children":[
+                        {
+                            "name": "Chañaral"
+                        },
+                        {
+                            "name": "Diego de Almagro"
+                        }
+                    ]
+                },
+                {
+                    "name": "Copiapó",
+                    "children":[
+                        {
+                            "name": "Caldera"
+                        },
+                        {
+                            "name": "Copiapó"
+                        },
+                        {
+                            "name": "Tierra Amarilla"
+                        }
+                    ]
+                },
+                {
+                    "name": "Huasco",
+                    "children":[
+                        {
+                            "name": "Alto del Carmen"
+                        },
+                        {
+                            "name": "Freirina"
+                        },
+                        {
+                            "name": "Huasco"
+                        },
+                        {
+                            "name": "Vallenar"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "IV Región",
+            "children": [
+                {
+                    "name": "Elqui",
+                    "children": [
+                        {
+                            "name": "Andacollo"
+                        },
+                        {
+                            "name": "Coquimbo"
+                        },
+                        {
+                            "name": "La Higuera"
+                        },
+                        {
+                            "name": "La Serena"
+                        },
+                        {
+                            "name": "Paihuano"
+                        },
+                        {
+                            "name": "Vicuña"
+                        }
+                    ]
+                },
+                {
+                    "name": "Limari",
+                    "children": [
+                        {
+                            "name": "Combarbala"
+                        },
+                        {
+                            "name": "Monte Patria"
+                        },
+                        {
+                            "name": "Ovalle"
+                        },
+                        {
+                            "name": "Punitaqui"
+                        },
+                        {
+                            "name": "Rio Hurtado"
+                        }
+                    ]
+                },
+                {
+                    "name": "Choapa",
+                    "children": [
+                        {
+                            "name": "Canela"
+                        },
+                        {
+                            "name": "Illapel"
+                        },
+                        {
+                            "name": "Los Vilos"
+                        },
+                        {
+                            "name": "Salamanca"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "V Región",
+            "children": [
+                {
+                    "name": "Isla de Pascua",
+                    "children": [
+                        {
+                            "name": "Rapa Nui"
+                        }
+                    ]
+                },
+                {
+                    "name": "Los Andes",
+                    "children": [
+                        {
+                            "name": "Calle Larga"
+                        },
+                        {
+                            "name": "Los Andes"
+                        },
+                        {
+                            "name": "Rinconada"
+                        },
+                        {
+                            "name": "San Esteban"
+                        }
+                    ]
+                },
+                {
+                    "name": "Petorca",
+                    "children": [
+                        {
+                            "name": "Cabildo"
+                        },
+                        {
+                            "name": "La Ligua"
+                        },
+                        {
+                            "name": "Papudo"
+                        },
+                        {
+                            "name": "Petorca"
+                        },
+                        {
+                            "name": "Zapallar"
+                        }
+                    ]
+                },
+                {
+                    "name": "Quillota",
+                    "children": [
+                        {
+                            "name": "Hijuelas"
+                        },
+                        {
+                            "name": "La Calera"
+                        },
+                        {
+                            "name": "La Cruz"
+                        },
+                        {
+                            "name": "Nogales"
+                        },
+                        {
+                            "name": "Quillota"
+                        }
+                    ]
+                },
+                {
+                    "name": "San Antonio",
+                    "children": [
+                        {
+                            "name": "Algarrobo"
+                        },
+                        {
+                            "name": "Cartagena"
+                        },
+                        {
+                            "name": "El Quisco"
+                        },
+                        {
+                            "name": "El Tabo"
+                        },
+                        {
+                            "name": "San Antonio"
+                        },
+                        {
+                            "name": "Santo Domingo"
+                        }
+                    ]
+                },
+                {
+                    "name": "San Felipe de Aconcagua",
+                    "children": [
+                        {
+                            "name": "Catemu"
+                        },
+                        {
+                            "name": "Llay-llay"
+                        },
+                        {
+                            "name": "Panquehue"
+                        },
+                        {
+                            "name": "Putaendo"
+                        },
+                        {
+                            "name": "San Felipe"
+                        },
+                        {
+                            "name": "Santa Maria"
+                        }
+                    ]
+                },
+                {
+                    "name": "Valparaiso",
+                    "children": [
+                        {
+                            "name": "Casablanca"
+                        },
+                        {
+                            "name": "Concon"
+                        },
+                        {
+                            "name": "Juan Fernandez"
+                        },
+                        {
+                            "name": "Puchuncavi"
+                        },
+                        {
+                            "name": "Quintero"
+                        },
+                        {
+                            "name": "Valparaiso"
+                        },
+                        {
+                            "name": "Viña del Mar"
+                        }
+                    ]
+                },
+                {
+                    "name": "Marga Marga",
+                    "children": [
+                        {
+                            "name": "Limache"
+                        },
+                        {
+                            "name": "Olmué"
+                        },
+                        {
+                            "name": "Quilpué"
+                        },
+                        {
+                            "name": "Villa Alemana"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "RM",
+            "children": [
+                {
+                    "name": "Chacabuco",
+                    "children": [
+                        {
+                            "name": "Colina"
+                        },
+                        {
+                            "name": "Lampa"
+                        },
+                        {
+                            "name": "Til Til"
+                        }
+                    ]
+                },
+                {
+                    "name": "Cordillera",
+                    "children": [
+                        {
+                            "name": "Pirque"
+                        },
+                        {
+                            "name": "Puente Alto"
+                        },
+                        {
+                            "name": "San José de Maipo"
+                        }
+                    ]
+                },
+                {
+                    "name": "Maipo",
+                    "children": [
+                        {
+                            "name": "Buin"
+                        },
+                        {
+                            "name": "Calera de Tango"
+                        },
+                        {
+                            "name": "Paine"
+                        },
+                        {
+                            "name": "San Bernardo"
+                        }
+                    ]
+                },
+                {
+                    "name": "Melipilla",
+                    "children": [
+                        {
+                            "name": "Alhué"
+                        },
+                        {
+                            "name": "Curacaví"
+                        },
+                        {
+                            "name": "María Pinto"
+                        },
+                        {
+                            "name": "Melipilla"
+                        },
+                        {
+                            "name": "San Pedro"
+                        }
+                    ]
+                },
+                {
+                    "name": "Santiago",
+                    "children": [
+                        {
+                            "name": "Cerillos"
+                        },
+                        {
+                            "name": "Cerro Navia"
+                        },
+                        {
+                            "name": "Conchalí"
+                        },
+                        {
+                            "name": "El Bosque"
+                        },
+                        {
+                            "name": "Estación Central"
+                        },
+                        {
+                            "name": "Huechuraba"
+                        },
+                        {
+                            "name": "Independencia"
+                        },
+                        {
+                            "name": "La Cisterna"
+                        },
+                        {
+                            "name": "La Granja"
+                        },
+                        {
+                            "name": "La Florida"
+                        },
+                        {
+                            "name": "La Pintana"
+                        },
+                        {
+                            "name": "La Reina"
+                        },
+                        {
+                            "name": "Las Condes"
+                        },
+                        {
+                            "name": "Lo Barnechea"
+                        },
+                        {
+                            "name": "Lo Espejo"
+                        },
+                        {
+                            "name": "Lo Prado"
+                        },
+                        {
+                            "name": "Macul"
+                        },
+                        {
+                            "name": "Maipú"
+                        },
+                        {
+                            "name": "Ñuñoa"
+                        },
+                        {
+                            "name": "Pedro Aguirre Cerda"
+                        },
+                        {
+                            "name": "Peñañolén"
+                        },
+                        {
+                            "name": "Providencia"
+                        },
+                        {
+                            "name": "Pudahuel"
+                        },
+                        {
+                            "name": "Quilicura"
+                        },
+                        {
+                            "name": "Quinta Normal"
+                        },
+                        {
+                            "name": "Recoleta"
+                        },
+                        {
+                            "name": "Renca"
+                        },
+                        {
+                            "name": "San Miguel"
+                        },
+                        {
+                            "name": "San Joaquín"
+                        },
+                        {
+                            "name": "San Ramón"
+                        },
+                        {
+                            "name": "Santiago"
+                        },
+                        {
+                            "name": "Vitacura"
+                        }
+                    ]
+                },
+                {
+                    "name": "Talagante",
+                    "children": [
+                        {
+                            "name": "El Monte"
+                        },
+                        {
+                            "name": "Isla de Maipo"
+                        },
+                        {
+                            "name": "Padre Hurtado"
+                        },
+                        {
+                            "name": "Peñaflor"
+                        },
+                        {
+                            "name": "Talagante"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "VI Región",
+            "children": [
+                {
+                    "name": "Cachapoal",
+                    "children": [
+                        {
+                            "name": "Codegua"
+                        },
+                        {
+                            "name": "Coinco"
+                        },
+                        {
+                            "name": "Coltauco"
+                        },
+                        {
+                            "name": "Doñihue"
+                        },
+                        {
+                            "name": "Graneros"
+                        },
+                        {
+                            "name": "Las Cabras"
+                        },
+                        {
+                            "name": "Machalí"
+                        },
+                        {
+                            "name": "Malloa"
+                        },
+                        {
+                            "name": "Mostazal"
+                        },
+                        {
+                            "name": "Olivar"
+                        },
+                        {
+                            "name": "Peumo"
+                        },
+                        {
+                            "name": "Pichidegua"
+                        },
+                        {
+                            "name": "Quinta de tilcoco"
+                        },
+                        {
+                            "name": "Rancagua"
+                        },
+                        {
+                            "name": "Rengo"
+                        },
+                        {
+                            "name": "Requínoa"
+                        },
+                        {
+                            "name": "San Vicente de Tagua Tagua"
+                        }
+                    ]
+                },
+                {
+                    "name": "Cardenal Caro",
+                    "children": [
+                        {
+                            "name": "La Estrella"
+                        },
+                        {
+                            "name": "Litueche"
+                        },
+                        {
+                            "name": "Marchigüe"
+                        },
+                        {
+                            "name": "Navidad"
+                        },
+                        {
+                            "name": "Paredones"
+                        },
+                        {
+                            "name": "Pichilemu"
+                        }
+                    ]
+                },
+                {
+                    "name": "Cochalgua",
+                    "children": [
+                        {
+                            "name": "Chépica"
+                        },
+                        {
+                            "name": "Chimbarongo"
+                        },
+                        {
+                            "name": "Lolol"
+                        },
+                        {
+                            "name": "Nancagua"
+                        },
+                        {
+                            "name": "Palmilla"
+                        },
+                        {
+                            "name": "Peralillo"
+                        },
+                        {
+                            "name": "Placilla"
+                        },
+                        {
+                            "name": "Pumanque"
+                        },
+                        {
+                            "name": "San Fernando"
+                        },
+                        {
+                            "name": "Santa Cruz"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "VII Región",
+            "children": [
+                {
+                    "name": "Cauquenes",
+                    "children": [
+                        {
+                            "name": "Cauquenes"
+                        },
+                        {
+                            "name": "Chanco"
+                        },
+                        {
+                            "name": "Pelluhue"
+                        }
+                    ]
+                },
+                {
+                    "name": "Curicó",
+                    "children": [
+                        {
+                            "name": "Curicó"
+                        },
+                        {
+                            "name": "Hualañé"
+                        },
+                        {
+                            "name": "Licantén"
+                        },
+                        {
+                            "name": "Molina"
+                        },
+                        {
+                            "name": "Rauco"
+                        },
+                        {
+                            "name": "Romeral"
+                        },
+                        {
+                            "name": "Sagrada Familia"
+                        },
+                        {
+                            "name": "Teno"
+                        },
+                        {
+                            "name": "Vichuquén"
+                        }
+                    ]
+                },
+                {
+                    "name": "Linares",
+                    "children": [
+                        {
+                            "name": "Colbún"
+                        },
+                        {
+                            "name": "Linares"
+                        },
+                        {
+                            "name": "Longaví"
+                        },
+                        {
+                            "name": "Parral"
+                        },
+                        {
+                            "name": "Retiro"
+                        },
+                        {
+                            "name": "San Javier"
+                        },
+                        {
+                            "name": "Villa Alegre"
+                        },
+                        {
+                            "name": "Yerbas buenas"
+                        }
+                    ]
+                },
+                {
+                    "name": "Talca",
+                    "children": [
+                        {
+                            "name": "Constitución"
+                        },
+                        {
+                            "name": "Curepto"
+                        },
+                        {
+                            "name": "Empedrado"
+                        },
+                        {
+                            "name": "Maule"
+                        },
+                        {
+                            "name": "Pelarco"
+                        },
+                        {
+                            "name": "Pencahue"
+                        },
+                        {
+                            "name": "Río Claro"
+                        },
+                        {
+                            "name": "San Clemente"
+                        },
+                        {
+                            "name": "San Rafael"
+                        },
+                        {
+                            "name": "Talca"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "XVI Región",
+            "children": [
+                {
+                    "name": "Itata",
+                    "children": [
+                        {
+                            "name": "Cobquecura"
+                        },
+                        {
+                            "name": "Coelemu"
+                        },
+                        {
+                            "name": "Ninhue"
+                        },
+                        {
+                            "name": "Portezuelo"
+                        },
+                        {
+                            "name": "Quirihue"
+                        },
+                        {
+                            "name": "Ránquil"
+                        },
+                        {
+                            "name": "Trehuaco"
+                        }
+                    ]
+                },
+                {
+                    "name": "Diguillín",
+                    "children": [
+                        {
+                            "name": "Bulnes"
+                        },
+                        {
+                            "name": "Chillán Viejo"
+                        },
+                        {
+                            "name": "Chillán"
+                        },
+                        {
+                            "name": "El Carmen"
+                        },
+                        {
+                            "name": "Pemuco"
+                        },
+                        {
+                            "name": "Pinto"
+                        },
+                        {
+                            "name": "Quillón"
+                        },
+                        {
+                            "name": "San Ignacion"
+                        },
+                        {
+                            "name": "Yungay"
+                        }
+                    ]
+                },
+                {
+                    "name": "Punilla",
+                    "children": [
+                        {
+                            "name": "Coihueco"
+                        },
+                        {
+                            "name": "Ñiquén"
+                        },
+                        {
+                            "name": "San Carlos"
+                        },
+                        {
+                            "name": "San Fabián"
+                        },
+                        {
+                            "name": "San Nicolás"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "VIII Región",
+            "children": [
+                {
+                    "name": "Arauco",
+                    "children": [
+                        {
+                            "name": "Arauco"
+                        },
+                        {
+                            "name": "Cañete"
+                        },
+                        {
+                            "name": "Contulmo"
+                        },
+                        {
+                            "name": "Curanilahue"
+                        },
+                        {
+                            "name": "Lebu"
+                        },
+                        {
+                            "name": "Los Álamos"
+                        },
+                        {
+                            "name": "Tirúa"
+                        }
+                    ]
+                },
+                {
+                    "name": "Biobío",
+                    "children": [
+                        {
+                            "name": "Alto Biobío"
+                        },
+                        {
+                            "name": "Antuco"
+                        },
+                        {
+                            "name": "Cabrero"
+                        },
+                        {
+                            "name": "Laja"
+                        },
+                        {
+                            "name": "Los Ángeles"
+                        },
+                        {
+                            "name": "Mulchén"
+                        },
+                        {
+                            "name": "Nacimiento"
+                        },
+                        {
+                            "name": "Negrete"
+                        },
+                        {
+                            "name": "Quilaco"
+                        },
+                        {
+                            "name": "Quilleco"
+                        },
+                        {
+                            "name": "San Rosendo"
+                        },
+                        {
+                            "name": "Santa Bárbara"
+                        },
+                        {
+                            "name": "Tucapel"
+                        },
+                        {
+                            "name": "Yumbel"
+                        }
+                    ]
+                },
+                {
+                    "name": "Concepción",
+                    "children": [
+                        {
+                            "name": "Chiguayante"
+                        },
+                        {
+                            "name": "Concepción"
+                        },
+                        {
+                            "name": "Coronel"
+                        },
+                        {
+                            "name": "Florida"
+                        },
+                        {
+                            "name": "Hualpén"
+                        },
+                        {
+                            "name": "Hualqui"
+                        },
+                        {
+                            "name": "Lota"
+                        },
+                        {
+                            "name": "Penco"
+                        },
+                        {
+                            "name": "San Pedro de la Paz"
+                        },
+                        {
+                            "name": "Santa Juana"
+                        },
+                        {
+                            "name": "Talcahuano"
+                        },
+                        {
+                            "name": "Tomé"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "IX Región",
+            "children": [
+                {
+                    "name": "Provincia de Cautín",
+                    "children": [
+                        {
+                            "name": "Carahue"
+                        },
+                        {
+                            "name": "Cholchol"
+                        },
+                        {
+                            "name": "Cunco"
+                        },
+                        {
+                            "name": "Curarrehue"
+                        },
+                        {
+                            "name": "Freire"
+                        },
+                        {
+                            "name": "Galvarino"
+                        },
+                        {
+                            "name": "Gorbea"
+                        },
+                        {
+                            "name": "Lautaro"
+                        },
+                        {
+                            "name": "Loncoche"
+                        },
+                        {
+                            "name": "Melipeuco"
+                        },
+                        {
+                            "name": "Nueva Imperial"
+                        },
+                        {
+                            "name": "Padre Las Casas"
+                        },
+                        {
+                            "name": "Perquenco"
+                        },
+                        {
+                            "name": "Pitrufquén"
+                        },
+                        {
+                            "name": "Pucón"
+                        },
+                        {
+                            "name": "Puerto Saavedra"
+                        },
+                        {
+                            "name": "Temuco"
+                        },
+                        {
+                            "name": "Teodoro Schmidt"
+                        },
+                        {
+                            "name": "Toltén"
+                        },
+                        {
+                            "name": "Vilcún"
+                        },
+                        {
+                            "name": "Villarica"
+                        }
+                    ]
+                },
+                {
+                    "name": "Provincia de Malleco",
+                    "children": [
+                        {
+                            "name": "Angol"
+                        },
+                        {
+                            "name": "Collipulli"
+                        },
+                        {
+                            "name": "Curacautín"
+                        },
+                        {
+                            "name": "Ercilla"
+                        },
+                        {
+                            "name": "Lonquimay"
+                        },
+                        {
+                            "name": "Los Sauces"
+                        },
+                        {
+                            "name": "Lumaco"
+                        },
+                        {
+                            "name": "Purén"
+                        },
+                        {
+                            "name": "Renaico"
+                        },
+                        {
+                            "name": "Traiguén"
+                        },
+                        {
+                            "name": "Victoria"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "XIV Región",
+            "children": [
+                {
+                    "name": "Provincia de Valdivia",
+                    "children": [
+                        {
+                            "name": "Carahue"
+                        },
+                        {
+                            "name": "Cholchol"
+                        },
+                        {
+                            "name": "Cunco"
+                        },
+                        {
+                            "name": "Curarrehue"
+                        },
+                        {
+                            "name": "Freire"
+                        },
+                        {
+                            "name": "Galvarino"
+                        },
+                        {
+                            "name": "Gorbea"
+                        },
+                        {
+                            "name": "Lautaro"
+                        }
+                    ]
+                },
+                {
+                    "name": "Provincia del Ranco",
+                    "children": [
+                        {
+                            "name": "Angol"
+                        },
+                        {
+                            "name": "Collipulli"
+                        },
+                        {
+                            "name": "Curacautin"
+                        },
+                        {
+                            "name": "Ercilla"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "X Región",
+            "children": [
+                {
+                    "name": "Chiloé",
+                    "children": [
+                        {
+                            "name": "Ancud"
+                        },
+                        {
+                            "name": "Castro"
+                        },
+                        {
+                            "name": "Chonchi"
+                        },
+                        {
+                            "name": "Curaco de Vélez"
+                        },
+                        {
+                            "name": "Dalcahue"
+                        },
+                        {
+                            "name": "Puqueldón"
+                        },
+                        {
+                            "name": "Queilén"
+                        },
+                        {
+                            "name": "Quemchi"
+                        },
+                        {
+                            "name": "Quellón"
+                        },
+                        {
+                            "name": "Quinchao"
+                        }
+                    ]
+                },
+                {
+                    "name": "Llanquihue",
+                    "children": [
+                        {
+                            "name": "Calbuco"
+                        },
+                        {
+                            "name": "Cochamó"
+                        },
+                        {
+                            "name": "Fresia"
+                        },
+                        {
+                            "name": "Frutillar"
+                        },
+                        {
+                            "name": "Llanquihue"
+                        },
+                        {
+                            "name": "Los Muermos"
+                        },
+                        {
+                            "name": "Maullín"
+                        },
+                        {
+                            "name": "Puerto Montt"
+                        },
+                        {
+                            "name": "Puerto Varas"
+                        }
+                    ]
+                },
+                {
+                    "name": "Osorno",
+                    "children": [
+                        {
+                            "name": "Osorno"
+                        },
+                        {
+                            "name": "Puerto Octay"
+                        },
+                        {
+                            "name": "Purranque"
+                        },
+                        {
+                            "name": "Puyehue"
+                        },
+                        {
+                            "name": "Río Negro"
+                        },
+                        {
+                            "name": "San Juan de la Cosa"
+                        },
+                        {
+                            "name": "San Pablo"
+                        }
+                    ]
+                },
+                {
+                    "name": "Palena",
+                    "children": [
+                        {
+                            "name": "Chaitén"
+                        },
+                        {
+                            "name": "Futaleufú"
+                        },
+                        {
+                            "name": "Hualaihué"
+                        },
+                        {
+                            "name": "Palena"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "XI Región",
+            "children": [
+                {
+                    "name": "Aysén",
+                    "children": [
+                        {
+                            "name": "Cisnes"
+                        },
+                        {
+                            "name": "Guaitecas"
+                        },
+                        {
+                            "name": "Aysén"
+                        }
+                    ]
+                },
+                {
+                    "name": "Capitán Prat",
+                    "children": [
+                        {
+                            "name": "Cochrane"
+                        },
+                        {
+                            "name": "O'Higgins"
+                        },
+                        {
+                            "name": "Tortel"
+                        }
+                    ]
+                },
+                {
+                    "name": "Coyhaique",
+                    "children": [
+                        {
+                            "name": "Coyhaique"
+                        },
+                        {
+                            "name": "Lago Verde"
+                        }
+                    ]
+                },
+                {
+                    "name": "General Carrera",
+                    "children": [
+                        {
+                            "name": "Chile Chico"
+                        },
+                        {
+                            "name": "Rio Ibañez"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "XII Región",
+            "children": [
+                {
+                    "name": "Antártica Chilena",
+                    "children": [
+                        {
+                            "name": "Antártica"
+                        },
+                        {
+                            "name": "Cabo de Hornos"
+                        }
+                    ]
+                },
+                {
+                    "name": "Magallanes",
+                    "children": [
+                        {
+                            "name": "Laguna Blanca"
+                        },
+                        {
+                            "name": "Punta Arenas"
+                        },
+                        {
+                            "name": "Rio Verde"
+                        },
+                        {
+                            "name": "San Gregorio"
+                        }
+                    ]
+                },
+                {
+                    "name": "Tierra del Fuego",
+                    "children": [
+                        {
+                            "name": "Porvernir"
+                        },
+                        {
+                            "name": "Primavera"
+                        },
+                        {
+                            "name": "Timaukel"
+                        }
+                    ]
+                },
+                {
+                    "name": "Última Esperanza",
+                    "children": [
+                        {
+                            "name": "Natales"
+                        },
+                        {
+                            "name": "Torres del Paine"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
