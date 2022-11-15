@@ -14,17 +14,17 @@ const svg = d3
   .attr("width", width)
   .attr("height", height);
 
-const FuerzaEnlace = d3.forceLink(enlaces)
-  .id((d) => d.nombre) // Llave para conectar source-target con el nodo
-  .strength((link => {
-    // Definir la fuerza del enlace de forma personalizada
-    if (link.source.nombre == "A") {
-      return 0
-    }
-    return 0.3
-  }))
-
 const iniciarSimulacion = (nodos, enlaces) => {
+  const FuerzaEnlace = d3.forceLink(enlaces)
+    .id((d) => d.nombre) // Llave para conectar source-target con el nodo
+    .strength((link => {
+      // Definir la fuerza del enlace de forma personalizada
+      if (link.source.nombre == "A") {
+        return 0
+      }
+      return 0.3
+    }))
+
   const simulacion = d3
     .forceSimulation(nodos)
     .force("enlaces", FuerzaEnlace)
